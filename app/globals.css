@@ -1,4 +1,4 @@
-@import "tailwindcss";
+ @import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -23,4 +23,38 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+} 
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Hide scrollbar for all browsers */
+.scrollbar-none {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;        
+}
+
+
+
+/* Animations */
+
+/* Pulse */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
+.pulse {
+  animation: pulse 2s ease-in-out infinite;
 }

@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ryno van Eeden Portfolio
 
-## Getting Started
+Welcome to my personal portfolio! This site showcases my skills, projects, and contact information. Built with **Next.js**, **React**, **Tailwind CSS**, and **Framer Motion** for smooth animations and modern design.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Responsive Design:** Looks great on mobile and desktop.  
+- **Interactive Animations:** Hover effects, scroll-based motion, and parallax elements.  
+- **Project Showcase:** Highlights my real-world projects, including EventBookr.  
+- **Contact Form:** Directly sends messages via Postmark email integration.  
+- **Social Links:** Quick access to LinkedIn, GitHub, WhatsApp, and more.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend:** Next.js, React, Tailwind CSS, Framer Motion  
+- **Backend (for contact form):** Next.js API routes with Postmark email  
+- **Icons & Media:** React Icons, self-created graphics, and photos  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Live Demo
 
-## Learn More
+[View Portfolio Live](https://www.rvaneeden.com)  
 
-To learn more about Next.js, take a look at the following resources:
+## About Me
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I'm a self-taught full-stack developer passionate about building clean, modern, and user-focused web applications. I specialize in JavaScript, React, Next.js, and Node.js. As a refugee from South Africa now based in the USA, I bring resilience, creativity, and determination to every project.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contact
 
-## Deploy on Vercel
+- **Email:** info@rvaneeden.com  
+- **LinkedIn:** [Ryno van Eeden](https://www.linkedin.com/in/ryno-van-eeden-850165135)  
+- **GitHub:** [RVanEeden85](https://github.com/RVanEeden85)  
+- **WhatsApp:** +1 313 213 5404  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Thank you for visiting! Feel free to explore my projects and get in touch.*
