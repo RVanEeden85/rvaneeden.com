@@ -13,23 +13,24 @@ const HomeBlock = () => {
             className="relative min-h-[80vh] w-full mx-auto overflow-hidden"
         >
             <motion.div style={{ y }}>
-                <h2 className="text-5xl md:text-9xl font-extrabold uppercase text-white/10">
+                <h2 className="text-5xl xl:text-8xl xxl:text-9xl font-extrabold uppercase text-white/20">
                     Full Stack Developer
                 </h2>
             </motion.div>
 
-            <div className="max-w-6xl mx-auto">
+            <div className="">
                 <motion.div
                     style={{ x, opacity }}
-                    className="fixed w-full md:w-[1000px] flex justify-center pointer-events-none z-0"
+                    className="fixed w-full mx-auto flex justify-center items-center pointer-events-none z-0"
                 >
                     <img
                         src="/images/ryno.webp"
                         alt="Ryno software developer and website designer"
+                        className="w-full max-w-[1000px]"
                     />
                 </motion.div>
 
-                <div className="absolute bottom-10 md:bottom-80">
+                <div className="absolute bottom-10 md:bottom-80 xl:bottom-20 xxl:bottom-80">
                     <div className="">
                         <p className="text-4xl md:text-9xl font-bold mb-4 text-blue-900">
                             Hi

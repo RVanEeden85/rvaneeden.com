@@ -104,7 +104,7 @@ export default function AboutMeGrid() {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2 md:gap-5">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-1 z-20">
                     {aboutItems.map((item, idx) => {
                         const Icon = item.icon;
                         return (
@@ -112,7 +112,7 @@ export default function AboutMeGrid() {
                                 key={idx}
                                 whileHover={{ scale: 1.05, y: -5 }}
                                 transition={{ type: "spring", stiffness: 300 }}
-                                className="bg-gray-800 border border-white/10 rounded-xl p-4 flex flex-col items-center text-center shadow-md hover:shadow-lg"
+                                className="bg-gray-800 border border-white/10 p-4 flex flex-col items-center text-center shadow-md hover:shadow-lg"
                             >
                                 <Icon className="text-3xl mb-3 text-blue-700" />
                                 <h3 className="text-lg font-semibold mb-1">

@@ -25,8 +25,8 @@ import {
 } from "react-icons/si";
 
 const SkillCard = ({ icon: Icon, label }: { icon?: any; label: string }) => (
-    <div className="p-4 bg-gray-800 border border-white/10 rounded-xl shadow-md hover:bg-blue-500 hover:text-white transition duration-500 transform hover:-translate-y-1 flex flex-col items-center justify-center">
-        <p className="font-semibold text-lg">
+    <div className="p-2 lg:p-3 xl:p-4 xxl:p-4 border border-white/20 hover:bg-blue-900 hover:text-white transition duration-500 transform hover:-translate-y-1">
+        <p className="font-semibold text-left text-sm xl:text-md xxl:text-lg">
             {label} {Icon && <Icon className="text-md inline" />}{" "}
         </p>
     </div>
@@ -43,10 +43,10 @@ const SkillsBlock = () => {
             <div className="grid md:grid-cols-2 gap-24">
                 {/* Technical Skills */}
                 <div className="w-full">
-                    <h2 className="text-4xl font-semibold mb-8 md:text-center">
+                    <h2 className="text-4xl font-bold lg:mb-3 xl:mb-5 xxl:mb-8">
                         Technical
                     </h2>
-                    <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-3 text-center">
+                    <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xxl:grid-cols-4 gap-1 text-center">
                         <SkillCard icon={FaHtml5} label="HTML" />
                         <SkillCard icon={FaCss3Alt} label="CSS" />
                         <SkillCard icon={FaJs} label="JavaScript" />
@@ -66,10 +66,10 @@ const SkillsBlock = () => {
 
                 {/* CMS */}
                 <div className="w-full">
-                    <h2 className="text-4xl font-semibold mb-8 md:text-center">
+                    <h2 className="text-4xl font-bold lg:mb-3 xl:mb-5 xxl:mb-8">
                         Content Management Systems
                     </h2>
-                    <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-3 text-center">
+                    <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xxl:grid-cols-4 gap-1 text-center">
                         <SkillCard icon={FaWordpress} label="WordPress" />
                         <SkillCard icon={FaDrupal} label="Drupal" />
                         <SkillCard icon={FaJoomla} label="Joomla" />
@@ -79,12 +79,12 @@ const SkillsBlock = () => {
 
                 {/* Marketing & SEO Skills */}
                 <div className="w-full">
-                    <h2 className="text-4xl font-semibold mb-8 md:text-center">
+                    <h2 className="text-4xl font-bold lg:mb-3 xl:mb-5 xxl:mb-8">
                         SEO & Digital Marketing
                     </h2>
 
                     {/* SEO */}
-                    <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-3 text-center">
+                    <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xxl:grid-cols-4 gap-1 text-center">
                         <SkillCard label="On-Page SEO" />
                         <SkillCard label="Technical SEO" />
                         <SkillCard
@@ -103,11 +103,11 @@ const SkillsBlock = () => {
                 </div>
                 {/* Design */}
                 <div className="w-full">
-                    <h2 className="text-4xl font-semibold mb-8 md:text-center">
+                    <h2 className="text-4xl font-bold lg:mb-3 xl:mb-5 xxl:mb-8">
                         Design
                     </h2>
 
-                    <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-3 text-center">
+                    <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xxl:grid-cols-4 gap-1 text-center">
                         <SkillCard label="UI/UX" />
                         <SkillCard label="Affinity Suite" />
                         <SkillCard label="Canva" />

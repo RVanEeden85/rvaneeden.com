@@ -8,7 +8,7 @@ const projects = [
         location: "South Africa",
         description:
             "A modern event planning marketplace web app built with Next.js and Tailwind CSS.",
-        image: "/images/eventbookr-thumbnail.webp",
+        image: "/images/eventbookr2.webp",
         github: "",
         demo: "https://www.eventbookr.com",
         tech: ["Next.js", "Tailwind CSS", "JavaScript", "NodeJS", "MongoDB"],
@@ -19,10 +19,20 @@ const projects = [
         title: "Rolleston Tinting",
         location: "New Zealand",
         description:
-            "A Wordpress shared hosting website for a window tinting company in New Zealand. This project includes SEO and montly digital marketing using Meta Business Suite and Facebook Ads.",
+            "A Wordpress shared hosting website for a window tinting company in New Zealand. This project includes SEO and monthly digital marketing using Meta Business Suite and Facebook Ads.",
         image: "/images/rolleston-tinting.webp",
         github: "#",
         demo: "https://rollestontinting.co.nz/",
+        tech: ["Wordpress", "CSS", "SEO"],
+    },
+    {
+        title: "Elle Group Pty Ltd",
+        location: "South Africa",
+        description:
+            "A Wordpress shared hosting website for a home building company in South Africa.",
+        image: "/images/ellegroup2.webp",
+        github: "#",
+        demo: "http://ellegroup.co.za/",
         tech: ["Wordpress", "CSS", "SEO"],
     },
 ];
@@ -46,13 +56,13 @@ export default function ProjectsBlock() {
                 {projects.map((project, idx) => (
                     <motion.div
                         key={idx}
-                        className="max-w-[300px] md:max-w-[600px] md:min-w-[300px] bg-gray-800 rounded-xl shadow-lg flex-shrink-0 snap-center cursor-pointer  transition-transform"
+                        className="max-w-[300px] md:max-w-[600px] md:min-w-[300px]  flex-shrink-0 snap-center cursor-pointer  transition-transform"
                         whileHover={{ scale: 1.05 }}
                     >
                         <img
                             src={project.image}
                             alt={project.title}
-                            className="w-full h-[200px] md:h-[450px] object-contain rounded-t-xl bg-white"
+                            className="w-full h-[200px] md:h-[450px] object-contain"
                         />
                         <div className="p-4 relative">
                             <h3 className="text-2xl font-semibold mb-2">
