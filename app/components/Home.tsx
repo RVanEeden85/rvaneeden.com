@@ -13,7 +13,7 @@ const HomeBlock = () => {
             className="relative min-h-[80vh] w-full mx-auto overflow-hidden"
         >
             <motion.div style={{ y }}>
-                <h2 className="text-5xl xl:text-8xl xxl:text-9xl font-extrabold uppercase text-white/20">
+                <h2 className="text-5xl lg:text-8xl xl:text-8xl 2xl:text-9xl font-extrabold uppercase text-white/20">
                     Full Stack Developer
                 </h2>
             </motion.div>
@@ -32,7 +32,7 @@ const HomeBlock = () => {
 
                 <div className="absolute bottom-10 md:bottom-80 xl:bottom-20 xxl:bottom-80">
                     <div className="">
-                        <p className="text-4xl md:text-9xl font-bold mb-4 text-blue-900">
+                        <p className="text-4xl md:text-9xl font-bold mb-4 text-blue-800">
                             Hi
                         </p>
                     </div>

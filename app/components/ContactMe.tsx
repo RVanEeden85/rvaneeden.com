@@ -56,52 +56,8 @@ export default function ContactMeBlock() {
             </p>
 
             <div className="grid md:grid-cols-2 gap-20 md:gap-5 items-center justify-items-center">
-                {/* Social Links */}
 
-                <div className="flex flex-col items-center justify-center">
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ delay: 0.3, duration: 0.5 }}
-                        className="grid grid-cols-2 gap-6 text-7xl w-[200px] h-[200px]"
-                    >
-                        <a
-                            href="https://www.linkedin.com/in/ryno-van-eeden-850165135"
-                            target="_blank"
-                        >
-                            <FaLinkedin className="hover:text-blue-500 transition" />
-                        </a>
-                        <a
-                            href="https://github.com/RVanEeden85"
-                            target="_blank"
-                        >
-                            <FaGithub className="hover:text-gray-400 transition" />
-                        </a>
-                        <a
-                            href="https://www.facebook.com/rvaneedensa/"
-                            target="_blank"
-                        >
-                            <FaFacebook className="hover:text-blue-400 transition" />
-                        </a>
-                        <a href="mailto:rvaneeden@me.com">
-                            <FaEnvelope className="hover:text-red-500 transition" />
-                        </a>
-                    </motion.div>
-
-                    {/* Whats App Link */}
-                    <a
-                        href="https://wa.me/13132135404"
-                        target="_blank"
-                        className="flex gap-2 items-center justify-center border border-white/20 text-green-200 py-3 px-5 rounded-full bg-gradient-to-r from-green-900 to-green-700 hover:scale-105 transition duration-500"
-                    >
-                        <p className="font-bold">Reach Me On Whatsapp</p>{" "}
-                        <span className="text-4xl text-white">
-                            <FaWhatsapp />
-                        </span>
-                    </a>
-                </div>
-
-                {/* Contact Form */}
+                 {/* Contact Form */}
 
                 <div className="w-full max-w-lg flex flex-col gap-4">
                     <h3 className="font-bold text-2xl">Send me a mail</h3>
@@ -156,12 +112,60 @@ export default function ContactMeBlock() {
                         />
                         <button
                             type="submit"
-                            className="px-6 py-3 bg-blue-900 hover:bg-blue-600 rounded-lg font-semibold transition"
+                            className="px-6 py-3 bg-gray-800 hover:bg-gray-600 transition duration-500 rounded-lg font-semibold transition"
                         >
                             Send Message
                         </button>
                     </motion.form>
                 </div>
+
+
+                {/* Social Links */}
+
+                <div className="flex flex-col items-center justify-center">
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.3, duration: 0.5 }}
+                        className="grid grid-cols-2 gap-6 text-7xl w-[200px] h-[200px]"
+                    >
+                        <a
+                            href="https://www.linkedin.com/in/ryno-van-eeden-850165135"
+                            target="_blank"
+                        >
+                            <FaLinkedin className="hover:text-blue-500 transition" />
+                        </a>
+                        <a
+                            href="https://github.com/RVanEeden85"
+                            target="_blank"
+                        >
+                            <FaGithub className="hover:text-gray-400 transition" />
+                        </a>
+                        <a
+                            href="https://www.facebook.com/rvaneedensa/"
+                            target="_blank"
+                        >
+                            <FaFacebook className="hover:text-blue-400 transition" />
+                        </a>
+                        <a href="mailto:rvaneeden@me.com">
+                            <FaEnvelope className="hover:text-red-500 transition" />
+                        </a>
+                    </motion.div>
+
+                    {/* Whats App Link */}
+                    <a
+                        href="https://wa.me/13132135404"
+                        target="_blank"
+                        className="flex gap-2 items-center justify-center border border-white/20 text-green-200 py-3 px-5 rounded-full bg-gradient-to-r from-green-900 to-green-700 hover:scale-105 transition duration-500"
+                    >
+                        <p className="font-bold">Reach Me On Whatsapp</p>{" "}
+                        <span className="text-4xl text-white">
+                            <FaWhatsapp />
+                        </span>
+                    </a>
+                </div>
+
+               
             </div>
         </section>
     );
