@@ -50,7 +50,7 @@ export default function ContactMeBlock() {
             <h2 className="font-oswald font-bold text-3xl xl:text-6xl 2xl:text-8xl mb-8">
                 Start A Project With Me
             </h2>
-            <p className="text-gray-300 mb-12 max-w-xl">
+            <p className="text-xl mb-12 max-w-xl">
                 I'm always open to new opportunities or collaborations. Feel
                 free to reach out using the form below or via my social links.
             </p>
@@ -90,7 +90,7 @@ export default function ContactMeBlock() {
                             value={form.name}
                             required
                             placeholder="Your Name"
-                            className="border-b-1 border-white/30 px-3 py-5 focus:outline-none focus:ring-none"
+                            className="border-b-1 border-white/30 px-3 py-5 focus:outline-none focus:ring-none placeholder-white"
                         />
                         <input
                             type="email"
@@ -99,7 +99,7 @@ export default function ContactMeBlock() {
                             onChange={handleChange}
                             required
                             placeholder="Your Email"
-                            className="border-b-1 border-white/30 px-3 py-5 focus:outline-none focus:ring-none"
+                            className="border-b-1 border-white/30 px-3 py-5 focus:outline-none focus:ring-none placeholder-white"
                         />
                         <textarea
                             placeholder="Your Message"
@@ -108,7 +108,7 @@ export default function ContactMeBlock() {
                             value={form.message}
                             required
                             rows={5}
-                            className="border-b-1 border-white/30 px-3 py-5 focus:outline-none focus:ring-none"
+                            className="border-b-1 border-white/30 px-3 py-5 focus:outline-none focus:ring-none placeholder-white"
                         />
                         <button
                             type="submit"
