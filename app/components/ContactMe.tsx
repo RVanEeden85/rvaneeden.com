@@ -47,7 +47,7 @@ export default function ContactMeBlock() {
             id="contact"
             className="min-h-screen flex flex-col justify-center py-16 w-full"
         >
-            <h2 className="text-5xl  md:text-7xl font-bold mb-6">
+            <h2 className="font-oswald font-bold text-3xl xl:text-6xl 2xl:text-8xl mb-8">
                 Start A Project With Me
             </h2>
             <p className="text-gray-300 mb-12 max-w-xl">

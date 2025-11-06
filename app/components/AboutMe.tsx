@@ -68,7 +68,7 @@ export default function AboutMeGrid() {
         >
             <div className="grid md:grid-cols-2 gap-10">
                 <div className="space-y-8 md:space-y-16">
-                    <h2 className="text-4xl md:text-7xl font-extrabold">
+                    <h2 className="font-oswald font-bold text-3xl xl:text-6xl 2xl:text-8xl">
                         About Me
                     </h2>
 

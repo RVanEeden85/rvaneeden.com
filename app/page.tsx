@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HomeBlock from "./components/Home"
 import AboutMeBlock from "./components/AboutMe";
 import SkillsBlock from "./components/Skills";

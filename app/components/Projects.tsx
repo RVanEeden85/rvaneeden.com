@@ -56,7 +56,7 @@ export default function ProjectsBlock() {
             id="projects"
             className="min-h-full py-16 text-white w-full overflow-x-visible"
         >
-            <h2 className="text-5xl md:text-7xl font-bold mb-12">
+            <h2 className="font-oswald font-bold text-3xl xl:text-6xl 2xl:text-8xl">
                 Current Projects
             </h2>
 

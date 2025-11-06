@@ -26,7 +26,7 @@ import {
 
 const SkillCard = ({ icon: Icon, label }: { icon?: any; label: string }) => (
     <div className="p-2 lg:p-3 xl:p-4 xxl:p-4 border border-white/20 hover:bg-blue-900 hover:text-white transition duration-500 transform hover:-translate-y-1">
-        <p className="font-semibold text-left text-sm xl:text-md xxl:text-lg">
+        <p className="font-semibold text-left text-sm xl:text-md 2xl:text-lg">
             {label} {Icon && <Icon className="text-md inline" />}{" "}
         </p>
     </div>
@@ -38,7 +38,7 @@ const SkillsBlock = () => {
             id="skills"
             className="w-full min-h-screen space-y-8 md:space-y-16"
         >
-            <h2 className="text-5xl md:text-7xl font-extrabold">My Skills</h2>
+            <h2 className="font-oswald font-bold text-3xl xl:text-6xl 2xl:text-8xl">My Skills</h2>
 
             <div className="grid md:grid-cols-2 gap-24">
                 {/* Technical Skills */}
