@@ -30,8 +30,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${raleway.variable} ${oswald.variable} antialiased`}
-      >
+  className={`bg-black text-white ${raleway.variable} ${oswald.variable} antialiased`}
+>
         {children}
         <NavPanel />
         <WorkAvailability />
