@@ -25,7 +25,7 @@ const HomeBlock = () => {
                 >
                     <img
                         src="/images/ryno.webp"
-                        alt="Ryno software developer and website designer"
+                        alt="Full stack developer in Next.js React and Node.JS - Ryno van Eeden"
                         className="w-full xl:max-w-[700px] 2xl:max-w-[1000px] "
                     />
                 </motion.div>
