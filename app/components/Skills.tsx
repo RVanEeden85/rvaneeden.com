@@ -36,14 +36,14 @@ const SkillsBlock = () => {
     return (
         <section
             id="skills"
-            className="w-full min-h-screen space-y-8 md:space-y-16"
+            className="w-full min-h-screen space-y-8 md:space-y-16 bg-white/20 p-5 lg:p-20 rounded-lg"
         >
             <h2 className="font-oswald font-bold text-3xl xl:text-6xl 2xl:text-8xl">My Skills</h2>
 
-            <div className="grid md:grid-cols-2 gap-24">
+            <div className="grid md:grid-cols-2 gap-10 lg:gap-24">
                 {/* Technical Skills */}
                 <div className="w-full">
-                    <h2 className="text-4xl font-bold lg:mb-3 xl:mb-5 xxl:mb-8">
+                    <h2 className="text-lg lg:text-4xl font-bold lg:mb-3 xl:mb-5 xxl:mb-8">
                         Technical
                     </h2>
                     <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xxl:grid-cols-4 gap-1 text-center">
@@ -66,7 +66,7 @@ const SkillsBlock = () => {
 
                 {/* CMS */}
                 <div className="w-full">
-                    <h2 className="text-4xl font-bold lg:mb-3 xl:mb-5 xxl:mb-8">
+                    <h2 className="text-lg lg:text-4xl font-bold lg:mb-3 xl:mb-5 xxl:mb-8">
                         Content Management Systems
                     </h2>
                     <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xxl:grid-cols-4 gap-1 text-center">
@@ -79,7 +79,7 @@ const SkillsBlock = () => {
 
                 {/* Marketing & SEO Skills */}
                 <div className="w-full">
-                    <h2 className="text-4xl font-bold lg:mb-3 xl:mb-5 xxl:mb-8">
+                    <h2 className="text-lg lg:text-4xl font-bold lg:mb-3 xl:mb-5 xxl:mb-8">
                         SEO & Digital Marketing
                     </h2>
 
@@ -103,7 +103,7 @@ const SkillsBlock = () => {
                 </div>
                 {/* Design */}
                 <div className="w-full">
-                    <h2 className="text-4xl font-bold lg:mb-3 xl:mb-5 xxl:mb-8">
+                    <h2 className="text-lg lg:text-4xl font-bold lg:mb-3 xl:mb-5 xxl:mb-8">
                         Design
                     </h2>
 

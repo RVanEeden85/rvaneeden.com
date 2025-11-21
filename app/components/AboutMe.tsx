@@ -73,7 +73,7 @@ export default function AboutMeGrid() {
                     </h2>
 
                     <div className="border-l-4 border-blue-900 pl-10 text-lg">
-                        <p className="leading-loose">
+                        <p className="">
                             Hi, I’m Ryno van Eeden, a self-taught web developer
                             passionate about building clean, modern, and
                             user-focused web applications. I’ve learned through
@@ -82,7 +82,7 @@ export default function AboutMeGrid() {
                             Next.js, and Node.js.
                         </p>
 
-                        <p className="leading-loose">
+                        <p className="">
                             I love turning ideas into functional, beautiful
                             websites and apps that solve real problems. As a
                             refugee from South Africa now based in the US, I
@@ -112,7 +112,7 @@ export default function AboutMeGrid() {
                                 key={idx}
                                 whileHover={{ scale: 1.05, y: -5 }}
                                 transition={{ type: "spring", stiffness: 300 }}
-                                className="bg-gray-800 border border-white/10 p-4 flex flex-col items-center text-center shadow-md hover:shadow-lg"
+                                className="bg-white/20 border border-white/10 p-4 flex flex-col items-center text-center shadow-md hover:shadow-lg"
                             >
                                 <Icon className="text-3xl mb-3 text-blue-700" />
                                 <h3 className="text-lg font-semibold mb-1">
